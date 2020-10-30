@@ -1,6 +1,8 @@
 # yourcartapp
 
-A new Flutter application.
+A Flutter application. This is an ecommerce app for purchasing groceries. For authentication it uses google login provided by firebase .
+The backend of this application is firebase.
+Razor pay is the backend of this payment integration.
 
 ## Getting Started
 
