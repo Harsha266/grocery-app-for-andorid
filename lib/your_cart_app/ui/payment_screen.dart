@@ -81,23 +81,8 @@ class _PaymentScreenState extends State<PaymentScreen> {
   }
 
   void openCheckout() async {
-    var options = {
-      'key': 'rzp_test_RhVMD1xNE9Nu1f',
-      'amount': (Totalamount)*100,
-      'name': 'Acme Corp.',
-      'description': 'Payment for items',
-      'prefill': {'contact': '', 'email': ''},
-      'external': {
-        'wallets': ['paytm']
-      }
-    };
-
-    try {
-      _razorpay.open(options);
-    } catch (e) {
-      debugPrint(e);
-    }
-  }
+   //your payment details should be here
+    
 
   void _handlePaymentSuccess(PaymentSuccessResponse response) {
     Scaffold.of(context).showSnackBar(
